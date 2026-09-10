@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>535250147-Expense Tracker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Expense Tracker</h1>
+        </header>
+
+        <div class="form-group">
+            <input type="text" id="expense-name"
+            placeholder="Expense Name">
+            <input type="number" id="expense-amount"
+            placeholder="Amount">
+            <select id="expense-category">
+                <option value="" disabled selected>Select Category</option>
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Other">Other</option>
+            </select>
+            <input type="date" id="expense-date">
+            <button id="add-expense" disabled>Add Expense</button>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Expense Name</th>
+                        <th>Amount</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="expense-table"></tbody>
+            </table>
+        </div>
+
+        <div class="total">
+            Total Amount: Rp<span id="total-expense">0.00</span>
+        </div>
+
+        <div class="total">
+            Total Data: <span id="total-data">0</span>
+        </div>
+
+        <script src="app.js"></script>
+
+    </body>
+</html>
