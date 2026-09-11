@@ -12,6 +12,7 @@ Cara Kerja Website:
 1. index.html
    
 File index.html digunakan untuk membuat struktur website.
+
 Di dalam file ini terdapat:
 - Judul Expense Tracker
 - Form untuk memasukkan data pengeluaran
@@ -29,6 +30,7 @@ HTML digunakan untuk membuat bagian-bagian yang akan dilihat oleh pengguna.
 2. style.css
    
 File style.css digunakan untuk mengatur tampilan website.
+
 CSS digunakan untuk mengatur:
 - Warna background
 - Warna tulisan
@@ -45,6 +47,7 @@ Pada bagian form digunakan grid agar input dapat tersusun menjadi dua kolom.
 3. app.js
    
 File app.js digunakan untuk membuat website dapat bekerja dan berinteraksi dengan pengguna.
+
 JavaScript digunakan untuk:
 - Mengambil data dari form
 - Mengecek data yang dimasukkan
