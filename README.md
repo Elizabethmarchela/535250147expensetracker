@@ -1,13 +1,13 @@
 Expense Tracker adalah website untuk mencatat pengeluaran, dibuat menggunakan HTML, CSS, dan JavaScript.
 
 Cara Kerja Website:
-Pengguna dapat memasukkan nama pengeluaran, jumlah uang, kategori, dan tanggal.
-Setelah semua data diisi, pengguna dapat menekan tombol Add Expense. 
-Data yang dimasukkan akan muncul di dalam tabel.
-Website juga akan menghitung dan menampilkan:
-- Total seluruh pengeluaran
-- Jumlah data pengeluaran
-Setiap data yang sudah ditambahkan juga dapat dihapus menggunakan tombol Delete.
+- Pengguna dapat memasukkan nama pengeluaran(name), jumlah uang(amount), kategori(category), dan tanggal(date).
+- Setelah semua data diisi, pengguna dapat menekan tombol Add Expense. 
+- Data yang dimasukkan akan muncul di dalam tabel.
+- Website juga akan menghitung dan menampilkan:
+  - Total seluruh pengeluaran
+  - Jumlah data pengeluaran
+- Setiap data yang sudah ditambahkan juga dapat dihapus menggunakan tombol Delete.
 
 1. index.html
 File index.html digunakan untuk membuat struktur website.
