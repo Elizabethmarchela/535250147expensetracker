@@ -23,9 +23,11 @@ Di dalam file ini terdapat:
 - Tabel untuk menampilkan data
 - Total Amount untuk menampilkan jumlah pengeluaran
 - Total Data untuk menampilkan jumlah data
+
 HTML digunakan untuk membuat bagian-bagian yang akan dilihat oleh pengguna.
 
 2. style.css
+   
 File style.css digunakan untuk mengatur tampilan website.
 CSS digunakan untuk mengatur:
 - Warna background
@@ -35,10 +37,13 @@ CSS digunakan untuk mengatur:
 - Tampilan tombol
 - Tampilan tabel
 - Tampilan bagian total
+  
 Pada website ini menggunakan warna pink pastel dan background putih pada bagian form, tabel, dan total agar tampilannya lebih rapi.
+
 Pada bagian form digunakan grid agar input dapat tersusun menjadi dua kolom.
 
 3. app.js
+   
 File app.js digunakan untuk membuat website dapat bekerja dan berinteraksi dengan pengguna.
 JavaScript digunakan untuk:
 - Mengambil data dari form
@@ -48,5 +53,7 @@ JavaScript digunakan untuk:
 - Menghitung total pengeluaran
 - Menghitung jumlah data
 - Menghapus data pengeluaran
+  
 Jadi, saat pengguna menekan Add Expense, JavaScript mengambil data dari form kemudian menampilkannya ke tabel.
+
 Jika pengguna menekan Delete, data tersebut akan dihapus dari daftar dan tampilan tabel akan diperbarui.
