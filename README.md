@@ -10,6 +10,7 @@ Cara Kerja Website:
 - Setiap data yang sudah ditambahkan juga dapat dihapus menggunakan tombol Delete.
 
 1. index.html
+   
 File index.html digunakan untuk membuat struktur website.
 Di dalam file ini terdapat:
 - Judul Expense Tracker
